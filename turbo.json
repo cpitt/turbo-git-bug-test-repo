@@ -3,6 +3,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "inputs": ["*.[jt]s", "*.[jt]sx"],
       "outputs": ["dist/**", ".next/**"]
     },
     "lint": {
